@@ -14,9 +14,7 @@
             }
         ]
     },
-    "icons": {
-        "128": "AD BLOCKER.PNG"
-    },
+
     "action": {
         "default_popup": "popup.html",
         "default_icon": "AD BLOCKER.PNG"
