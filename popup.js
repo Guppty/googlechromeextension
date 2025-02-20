@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const ruleList = document.getElementById('rule-list');
-    const statusText = document.getElementById('status');
-    const toggleButton = document.getElementById('toggle');
+
 
     const rules = [
         { id: 1, url: "doubleclick.net" },
