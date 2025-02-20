@@ -17,16 +17,5 @@ document.addEventListener('DOMContentLoaded', function() {
         ruleList.appendChild(li);
     });
 
-    // Toggle the ad blocker on/off
-    toggleButton.addEventListener('click', function() {
-        if (statusText.textContent === 'Active') {
-            statusText.textContent = 'Inactive';
-            statusText.style.color = 'red';
-            toggleButton.textContent = 'Enable Ad Blocker';
-        } else {
-            statusText.textContent = 'Active';
-            statusText.style.color = 'green';
-            toggleButton.textContent = 'Disable Ad Blocker';
-        }
-    });
+  
 });
