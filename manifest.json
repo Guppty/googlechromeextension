@@ -13,10 +13,5 @@
                 "path": "rules.json"
             }
         ]
-    },
-
-    "action": {
-        "default_popup": "popup.html",
-        "default_icon": "AD BLOCKER.PNG"
     }
 }
