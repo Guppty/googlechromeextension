@@ -5,20 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Ad Blocker</title>
     <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
 </head>
 <body>
-    <div class="popup-container">
-        <h1>Ads Blocked</h1>
-        <div class="emoji"> HEY! </div>
-        <p>Your ad blocker is working!</p>
-        <div id="rules">
-            <h3>Blocked URLs:</h3>
-            <ul id="rule-list">
-                <!-- Rules will be inserted here dynamically -->
-            </ul>
-        </div>
-    </div>
-
-    <script src="popup.js"></script>
+    <div class="progress-bar" style="--width:10" data-label="Loading..."> </div> </div>
+    
 </body>
 </html>
