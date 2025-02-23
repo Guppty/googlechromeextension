@@ -13,6 +13,8 @@
 body {
     padding: 0px;
     margin: 0px;
+    width: 300px;
+    height: 100px;
 }
 
 .progress-bar {
@@ -22,6 +24,7 @@ body {
     background-color: #000000;
     border-radius: 1.5em;
     color: white;
+    top: 10%;
 }
 
 .progress-bar::before {
@@ -35,7 +38,7 @@ body {
     width: calc(var(--width, 0) * 1%);
     min-width: 2rem;
     max-width: calc(100% - 1em);
-    background: linear-gradient(120deg, #3300e9, #25d6ed);;
+    background: linear-gradient(120deg, #3300e9, #25d6ed);
     border-radius: 1em;
     padding: 1em;
 }
