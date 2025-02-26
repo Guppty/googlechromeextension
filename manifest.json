@@ -1,12 +1,17 @@
 {
-    "name": " Ad-Blocker",
+    "name": " Pop Up Ad-Blocker",
     "version": "1.0.0",
     "manifest_version": 3,
     "permissions": [
         "declarativeNetRequest"
     ],
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "adblock.png",
+            "48": "adblock.png",
+            "128": "adblock.png"
+        }
     },
     "declarative_net_request": {
         "rule_resources": [
@@ -16,6 +21,11 @@
                 "path": "rules.json"
             }
         ]
+    },
+    "icons": {
+        "16": "adblock.png",
+        "48": "adblock.png",
+        "128": "adblock.png"
     }
- }
- 
+}
+
